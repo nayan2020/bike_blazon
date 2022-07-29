@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"  href="../static/CSS/login.css">
+    <title>login</title>
+
+    <script lang="javascript">
+        function login(){
+            window.location="login.html"
+        }
+    </script>
+</head>
+<body>
+    <section id="log_r">
+        <div class="log">
+            <h1>Registration</h1>
+            <form action="../data/index.php" method="post">
+                <div class="log_ele">
+                    <label for="name">First name:</label>
+                    <input type="text" name="name" id="name" placeholder="Full Name" required> <br> <br>
+                </div>
+                <div class="log_ele">
+                    <label for="phone">Enter Your Phone Number:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="with out country code" required> <br> <br>
+                </div>
+                <div class="log_ele">
+                    <label for="age">Enter Your age:</label>
+                    <input type="number" name="age" id="age" required> <br> <br>
+                </div>
+                <div class="log_ele">
+                    <label for="email">Enter Your email:</label>
+                    <input type="email" name="email" id="email" placeholder="sample@email.com" required> <br> <br>
+                </div>
+                <div class="log_ele">
+                    <label for="pass">Enter Your Password:</label>
+                    <input type="password" name="pass" id="pass" placeholder="min char 8" minlength="8" required> <br> <br>
+                </div>
+                <div class="log_ele_butt">
+                    <button type="submit">submit</button>
+                </div>
+                <div class="log_ele_butt">
+                    <h4>Or</h4>
+                    <button type="reset">reset</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>

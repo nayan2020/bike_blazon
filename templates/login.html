@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../static/CSS/login.css">
+    <title>login</title>
+
+    <script lang="javascript">
+        function login(){
+            window.location="register.html"
+        }
+    </script>
+</head>
+
+<body>
+    <section id="log">
+        <div class="log">
+            <h1>Log in</h1>
+            <form action="" method="get">
+                <div class="log_ele">
+                    <label for="email">Enter Your email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Register Email"> <br> <br>
+                </div>
+                <div class="log_ele">
+                    <label for="pass">Enter Your password:</label>
+                    <input type="password" name="pass" id="pass" placeholder="Enter password"> <br> <br>
+                </div>
+
+
+                <div class="log_ele_butt">
+                    <input type="button" value="summit" id="butt">
+                </div>
+                <div class="log_ele_butt">
+                    <h4>Or</h4>
+                    <input type="button" value="Registration" id="butt" onclick="login()">
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+</body>
+
+</html>

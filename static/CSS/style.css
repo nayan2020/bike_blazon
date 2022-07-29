@@ -1,0 +1,267 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.center {
+    text-align: center;
+}
+
+.h_primary {
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Playfair Display', serif;
+}
+
+.h_secondary {
+    font-size: 1.1rem;
+    padding: 6px;
+    font-family: 'Playfair Display', serif;
+}
+.gap{
+    margin: 60px;
+}
+a{
+    text-decoration:none;
+}
+
+/* ********* navBAR section ********* */
+
+/* nav {
+    font-weight: bold;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+
+} */
+
+.container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 50px;
+    float: none;
+    background-color: black;
+    color: #0F1111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+
+    margin: 0 auto;
+    overflow: auto;
+}
+.navbar_brand{
+    display: inline-flex;
+    margin: 15px; 
+}
+
+#nav_left .nav_bar_item,
+#nav_right .nav_bar_item{
+    display: inline-flex;
+    margin: 15px; 
+}
+
+#nav_left .nav_bar_item a,
+#nav_right .nav_bar_item a{
+    color: white;
+    margin: 16px;
+    text-decoration: none;
+}
+
+#nav_right {
+    margin-left:768px;
+    margin-top: 0;
+}
+/* #nav_left .nav_bar_item a:hover,
+#nav_right .nav_bar_item a:hover{
+    color: wheat;
+    font-size: 18px;
+} */
+
+
+/* ********* Hero part section ********* */
+
+.hero {
+    background-image: url('../img/busa/busa1.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(230, 180, 180);
+    color: white;
+    font-size: 14px;
+
+    padding: 306px 0;
+    text-align: center;
+}
+
+.hero_ele h1 {
+    font-size: 41px;
+    z-index: 1;
+}
+
+.hero_ele_img img{
+    width: 100px;
+    height: 100px;
+    
+} 
+
+
+.hero_ele {
+    max-width: 500px;
+    margin: auto auto;
+    background-color: rgba(32, 32, 42, 0.4);
+    border-radius: 25px;
+}
+
+/* ********* marque part ********* */
+.marq {
+    width: 100%;
+    background-color: rgba(153, 140, 140, 0.5);
+    padding: 11px 0;
+}
+
+.marq_ele p {
+    font-size: 22px;
+}
+
+/* ********* Bike part ********* */
+
+.bikes {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    margin: 34px;
+
+}
+
+.bike_ele {
+    padding: 25px 15px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+
+
+    max-width: 489px;
+    max-height: 366px;
+    text-align: center;
+
+    margin: 18px 20px;
+    background-color: rgba(190, 196, 190, .2);
+    border-radius: 20px;
+}
+
+
+#bikes .bike_ele_img .bike_ele_img_in img {
+    height: 191px;
+    width: 297px;
+    margin: auto;
+    display: block;
+}
+
+#bikes .bike_ele_de .bike_ele_de_i .uil {
+    color: rgb(134, 38, 134);
+    padding-top: 8px
+}
+
+#bikes .bike_ele_de .bike_ele_de_i .mid_blur {
+    opacity: .5;
+    font-size: 11px;
+    padding: 9px;
+    margin: 0 10px;
+}
+
+.bike_ele_de_i {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* **************** Services part **************** */
+
+
+#services .service_ele {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+
+    max-height: 35px;
+    max-height: 366px;
+    text-align: center;
+
+}
+
+#services .service_ele {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    margin: 20px;
+    padding: 15px;
+    max-width: 297px;
+}
+
+#services .service_ele_img img {
+    display: block;
+    position: static;
+    max-height: 135px;
+}
+
+#services .service_ele_de p {
+    font-size: 16px;
+    font-weight: 500;
+
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+}
+
+/* Contact part */
+
+#contact {
+    padding: 20px;
+    background-color: rgba(48, 135, 83, 0.5);
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+#contact .form_group {
+    margin: 15px;
+}
+
+#contact .form_group input,
+#contact .form_group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+/* footer part */
+#footers {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: 20px;
+
+}
